@@ -12,6 +12,11 @@ public class Main {
 
         Pago pagoPayPal = new PagoPayPal("lfuentes@gmail.com");
         procesador.setPago(pagoPayPal);
-        pagoPayPal.procesarPago(50);
+        procesador.procesarPago(50);
+
+        Pago pagoTransferencia = new PagoTransferencia();
+        procesador.setPago(pagoTransferencia);
+        procesador.procesarPago(70);
+        
     }
 }
