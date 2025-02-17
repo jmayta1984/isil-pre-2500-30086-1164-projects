@@ -36,6 +36,10 @@ public class Main {
         competicion.ordenParticipacion();
         System.out.println(competicion.getParticipantes());
 
+        competicion.pruebaParticipacion();
+
+        System.out.println(competicion.mejorMarcaPersonal());
+
 
 
     }
