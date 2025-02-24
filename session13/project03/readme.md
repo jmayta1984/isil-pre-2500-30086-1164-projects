@@ -1,6 +1,7 @@
-## Caso de estudio: Interfaces en un sistema de notificación
+# Caso de estudio: Interfaces en un sistema de notificación
 
 Imagina que estás desarrollando un sistema de notificaciones para una plataforma que debe enviar mensajes por difentes canales, como :
+
 - Correo electrónico
 - SMS
 - WhatsApp
