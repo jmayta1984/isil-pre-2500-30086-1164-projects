@@ -1,10 +1,10 @@
 package pe.isil;
 
-public class Termostato implements ControlEncendido, ControlTemperatura {
+public class Termostato implements ControlTemperatura {
 
     @Override
-    public void ajustarTemperatura() {
-        
+    public void ajustarTemperatura(int temperatura) {
+        System.out.println("Temperatura ajustada a: " + temperatura);
     }
 
     @Override
